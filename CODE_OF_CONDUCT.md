@@ -54,3 +54,46 @@ Evidence
 Trade-off
 Alternative
 Decision
+Example:
+I disagree with this approach because it can produce duplicate
+financial records when two requests execute concurrently.
+
+A unique constraint combined with a transaction would address
+that failure mode.
+This is preferable to criticizing the contributor personally.
+
+⸻
+
+Security Discussions
+
+Do not publicly expose:
+	•	production credentials
+	•	private keys
+	•	personal information
+	•	authentication tokens
+	•	customer data
+	•	confidential infrastructure details
+
+Use responsible disclosure practices for security issues.
+
+See SECURITY.md.
+
+⸻
+
+Maintainer Responsibility
+
+Maintainers should:
+	•	apply project standards consistently
+	•	keep discussions technically focused
+	•	review contributions fairly
+	•	address inappropriate behavior
+	•	protect sensitive information
+	•	prioritize the technical quality and reliability of the repository
+
+⸻
+
+Enforcement
+
+Project maintainers may remove content, close discussions, reject contributions, or restrict participation when necessary to maintain a professional project environment.
+
+Serious or repeated violations may result in removal from the project.
