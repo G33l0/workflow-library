@@ -91,7 +91,7 @@ If these questions cannot be answered, the workflow is not fully designed.
 
 ## Engineering Principles
 
-### 1. Server-authoritative state
+### 1. Server authoritative state
 
 The server determines the current state of a business resource.
 
